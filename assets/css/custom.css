@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #000;
+}
+.container {
+    max-width: 1300px;
+}
+img {
+    max-width: 100%;
+}
+.header nav.navbar {
+    border-bottom: 1px solid #FFBD00;
+}
+.header nav.navbar .container {
+    padding: 0 30px;
+}
+.header nav.navbar .navbar-nav a.nav-item {
+    color: #fff;
+    border: 1px solid #FFBD00;
+    margin: 0 10px;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 50px;
+    padding: 13px 30px;
+    text-transform: uppercase;
+    transition: 0.5s all;
+    display: inline-block;
+}
+.header nav.navbar .navbar-nav a.nav-item:hover, .header nav.navbar .navbar-nav a.nav-item.active {
+    background-color: #FFBD00;
+    color: #000;
+}
+
+
+/******************* Image with text ********************/
+section.image-with-text {
+    padding: 60px 0 53px;
+    background-image: url(../images/BANNER1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+section.image-with-text::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(88 81 55 / 79%);
+}
+.section-head {
+    margin-bottom: 33px;
+    font-size: 39px;
+    line-height: 48px;
+}
+.image-with-text .contetn-main h2 {
+    font-size: 55px;
+    margin: 0 0 32px;
+    line-height: 70px;
+    color: #FFBD00;
+}
+.image-with-text .contetn-main h2 span {
+    color: #fff;
+}
+.image-with-text .contetn-main h2 p {
+    margin: 0;
+    padding-left: 50px;
+}
+.contetn-main .content-wrapper p {
+    font-size: 20px;
+    color: #fff;
+    line-height: 34px;
+    border-left: 2px solid #ffbd00;
+    padding-left: 20px;
+    margin-bottom: 27px;
+}
+.image-with-text .image-wrapper .image1 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+section.decks-section {
+    background: #FFBD00;
+    padding: 34px 0 380px;
+}
+section.decks-section .single-card {
+    background: #000000;
+    border-radius: 25px;
+    padding: 32px 0 32px 32px;
+}
+section.decks-section .single-card .card-image {
+    flex: 0 0 30%;
+    max-width: 30%;
+    width: 100%;
+}
+section.decks-section .single-card .card-contetn {
+    padding-left: 34px;
+}
+section.decks-section .single-card .card-contetn p {
+    font-size: 28px;
+    color: #fff;
+    line-height: 48px;
+    border-left: 2px solid #ffbd00;
+    padding-left: 16px;
+    margin-bottom: 27px;
+}
+
+
+.contactus-form .fom-main {
+    max-width: 1653px;
+    margin: 0 auto;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    overflow: hidden;
+    padding: 0;
+    background: #000;
+    margin-top: -320px;
+    position: relative;
+}
+
+.contact-details {
+    padding-left: 48px;
+}
+.contact-details h3 {
+    font-size: 34px;
+    color: #FFC212;
+    text-transform: uppercase;
+}
+.contact-details h4 {
+    font-size: 44px;
+    color: #fff;
+    line-height: 96px;
+    margin: 0;
+}
+.contact-details p {
+    color: #FFBD00;
+    font-size: 25px;
+    line-height: 38px;
+    margin: 0;
+}
+.contact-details ul {
+    padding: 0;
+    margin: 64px 0 0;
+    list-style: none;
+}
+.contact-details ul li {
+    padding-bottom: 30px;
+}
+.contact-details ul li:last-child {
+    padding-bottom: 0;
+}
+.contact-details ul li a {
+    display: inline-block;
+    font-size: 22px;
+    color: #fff;
+    line-height: 33px;
+}
+.contact-details ul li a img {
+    margin-right: 24px;
+}
+
+.contact-form {
+    padding: 50px 32px;
+    background: #fff;
+}
+.contact-form .form-group input {
+    min-height: 78px;
+    margin-bottom: 43px;
+    border: 1.5px solid #FFC212;
+    border-radius: 15px;
+    font-size: 30px;
+    padding: 0 30px;
+}
+.contact-form .form-group input::placeholder {
+    color: rgb(133 133 133 / 52%);
+}
+.contact-form button.submit-button {
+    width: 100%;
+    background: #FFBD00 !important;
+    border: 0;
+    min-height: 78px;
+    border-radius: 13px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+section.richtext-section {
+    padding: 100px 0 50px;
+}
+section.richtext-section .text-inner h2 {
+    color: #FFBD00;
+    font-size: 60px;
+    margin-bottom: 48px;
+    line-height: 48px;
+}
+section.richtext-section .text-inner h2 span {
+    color: #fff;
+}
+section.richtext-section .text-inner p {
+    color: #FFFFFF;
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 32px;
+}
+section.richtext-section .text-inner p:last-child {
+    margin-bottom: 0;
+}
+section.richtext-section .text-inner p a {
+    color: #FFBD00;
+    text-decoration: underline;
+}
+
+section.portfolio-slider {
+    padding: 60px 0;
+}
+.section-head h2 {
+    font-size: 60px;
+    color: #ffbd00;
+    margin-bottom: 49px;
+    font-weight: 500;
+}
+.portfolio-slider-main {
+    background: #FFBD00;
+    padding: 73px 67px;
+    border-radius: 59px;
+}
+.portfolio-slider-main .single-image {
+    padding: 0 20px;
+}
+.portfolio-inner {
+    padding: 0 40px;
+}
+.portfolio-image button:before {
+    content: "";
+}
+.portfolio-image button.slick-prev {
+    height: 100px;
+    width: 100px;
+    left: -123px;
+    opacity: 1;
+}
+.portfolio-image button.slick-prev:before {
+    background-image: url(../images/icon/left-arrow.png);
+    height: 100px;
+    width: 100px;
+    z-index: 99;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 1;
+}
+.portfolio-image button.slick-next {
+    height: 100px;
+    width: 100px;
+    right: -123px;
+    opacity: 1;
+}
+.portfolio-image button.slick-next:before {
+    background-image: url(../images/icon/right-arrow.png);
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    z-index: 99;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 1;
+}
+
+footer.footer {
+    border-top: 1px solid #FFBD00;
+    padding: 119px 0 50px;
+}
+.footer .footer-wrapper p {
+    font-size: 28px;
+    color: #fff;
+    line-height: 42px;
+    margin: 0;
+}
+
+.footer-inner h2 {
+    color: #FFBD00;
+    font-size: 27px;
+    line-height: 40px;
+    margin-bottom: 26px
+}
+.footer-inner ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.footer-inner ul li {
+    margin-bottom: 22px;
+}
+.footer-inner ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+}
+.footer-inner ul li a img {
+    margin-right: 26px;
+}
+
+
+
+
