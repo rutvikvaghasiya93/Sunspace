@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+/******************* Basic  *******************/
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #000;
@@ -10,8 +10,10 @@ body {
 img {
     max-width: 100%;
 }
+/******************* Header Start *******************/
 .header nav.navbar {
     border-bottom: 1px solid #FFBD00;
+    padding: 0 60px;
 }
 .header nav.navbar .container {
     padding: 0 30px;
@@ -32,11 +34,11 @@ img {
     background-color: #FFBD00;
     color: #000;
 }
+/******************* Header end *******************/
 
-
-/******************* Image with text ********************/
+/******************* Image with text start ********************/
 section.image-with-text {
-    padding: 60px 0 53px;
+    padding: 60px 60px 53px;
     background-image: url(../images/BANNER1.png);
     background-position: center;
     background-size: cover;
@@ -50,7 +52,7 @@ section.image-with-text::before{
     right: 0;
     left: 0;
     bottom: 0;
-    background-color: rgb(88 81 55 / 79%);
+    background-color: rgba(48, 47, 44, 0.9);
 }
 .section-head {
     margin-bottom: 33px;
@@ -81,9 +83,15 @@ section.image-with-text::before{
 .image-with-text .image-wrapper .image1 {
     position: absolute;
     top: 50%;
+    left: 140px;
     transform: translateY(-50%);
 }
+.image-with-text .image-wrapper .image2 img{
+    max-width: 680px;
+}
+/******************* Image-with-text end *******************/
 
+/******************* decks-section start *******************/
 section.decks-section {
     background: #FFBD00;
     padding: 34px 0 380px;
@@ -109,8 +117,9 @@ section.decks-section .single-card .card-contetn p {
     padding-left: 16px;
     margin-bottom: 27px;
 }
+/******************* decks-section end *******************/
 
-
+/******************* contactus-form start *******************/
 .contactus-form .fom-main {
     max-width: 1653px;
     margin: 0 auto;
@@ -122,7 +131,6 @@ section.decks-section .single-card .card-contetn p {
     margin-top: -320px;
     position: relative;
 }
-
 .contact-details {
     padding-left: 48px;
 }
@@ -163,7 +171,6 @@ section.decks-section .single-card .card-contetn p {
 .contact-details ul li a img {
     margin-right: 24px;
 }
-
 .contact-form {
     padding: 50px 32px;
     background: #fff;
@@ -188,7 +195,9 @@ section.decks-section .single-card .card-contetn p {
     font-size: 30px;
     font-weight: 500;
 }
+/******************* contactus-form end *******************/
 
+/******************* richtext-section start *******************/
 section.richtext-section {
     padding: 100px 0 50px;
 }
@@ -214,13 +223,15 @@ section.richtext-section .text-inner p a {
     color: #FFBD00;
     text-decoration: underline;
 }
+/******************* richtext-section end  *******************/
 
+/******************* portfolio-silder start *******************/
 section.portfolio-slider {
     padding: 60px 0;
 }
 .section-head h2 {
     font-size: 60px;
-    color: #ffbd00;
+    color: #000000;
     margin-bottom: 49px;
     font-weight: 500;
 }
@@ -271,10 +282,12 @@ section.portfolio-slider {
     top: 0;
     opacity: 1;
 }
+/******************* portfolio-silder end *******************/
 
+/******************* Footer start *******************/
 footer.footer {
     border-top: 1px solid #FFBD00;
-    padding: 119px 0 50px;
+    padding: 119px 60px 50px;
 }
 .footer .footer-wrapper p {
     font-size: 28px;
@@ -305,7 +318,206 @@ footer.footer {
 .footer-inner ul li a img {
     margin-right: 26px;
 }
+/******************* Footer end *******************/
 
 
+/******************* second page css start *******************/
 
+/******************* update-section start *******************/
+.update-section{
+    background-color: #FFBD00;
+    padding: 50px 0;
+}
+.update-section .update-inner .section-head h2{
+    font-size: 40px;
+}
+.update-section .update-inner .update-inner-content p{
+    font-size: 20px;
+    color: #000;
+    line-height: 34px;
+    margin-bottom: 27px;
+}
+/******************* update-section end *******************/
 
+/******************* video-with-text start *******************/
+.video-with-text{
+    padding: 50px 0;
+    background-color: #000000;
+}
+.video-with-text .video-content-main .video-content-inner h2{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom:30px;
+}
+.video-with-text .video-content-main .video-content-inner p{
+    font-size: 16px;
+    color: #fff;
+    line-height: 34px;
+}
+/******************* video-with-text end *******************/
+
+/******************* sunroom-section start *******************/
+.sunroom-section{
+    padding: 50px;
+    background-color: #FFBD00;
+}
+.sunroom-section .sunroom-inner .sunroon-head h2{
+    font-size: 40px;
+    font-weight: 600px;
+}
+.sunroom-section .sunroom-inner .sunroom-card .sunroom-card-inner{
+    background: black;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 6px 6px 15px 1px rgb(15 15 15);
+}
+/******************* sunroom-section end *******************/
+
+/******************* contact-us start *******************/
+.contact-us{
+    background-image: url(../images/BANNER1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 50px 0;
+    position: relative;
+    height: 100%;
+    min-height: 400px;
+}
+.contact-us::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.contact-us .contact-main .contact-inner .contact-discription .yellow{
+    color: #FFBD00;
+}
+.contact-us .contact-main .contact-inner .contact-discription h2{
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
+}
+.contact-us .contact-main .contact-inner .contact-discription p{
+    font-size: 18px;
+    font-weight: normal;
+    color: #fff;
+    line-height: 28px;
+}
+.contact-us .contact-main .contact-inner  .contact-us-button .btn{
+    padding: 0.7rem 3rem;
+}
+.contact-us .contact-main .contact-inner  .contact-us-button .btn-outline-warning{
+    color: #fff;
+    background-color: #ffc10754;
+    border-radius: 1rem;
+}
+.contact-us .contact-main .contact-inner  .contact-us-button .btn-outline-warning:hover{
+    background-color: #ffc107;
+}
+/******************* contact-us end *******************/
+
+/******************* sunspace section start *******************/
+.sunspace{
+    background-color: #FFBD00;
+    color: #000;
+    padding: 50px 0px;
+}
+.sunspace .sunspace-main .sunspace-inner .sunspace-heading h2{
+    font-size: 40px;
+    font-weight: 600px;
+    color: #000
+}
+.sunspace .sunspace-main .sunspace-inner .sunspace-left-content .nav a{
+    color: #000;
+}
+.sunspace .sunspace-main .sunspace-inner .sunspace-left-content .nav a.active,
+.sunspace .sunspace-main .sunspace-inner .sunspace-left-content .nav a:hover{
+    color: white;
+}
+.sunspace .sunspace-main .sunspace-inner .sunspace-heading p{
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 40px;
+}
+.sunspace .sunspace-main .sunspace-middel-content {
+    border-left: 1px solid black;
+    padding: 0 29px;
+}
+.sunspace .sunspace-main .sunspace-right-content .sunspace-right-img img{
+    border-radius: 20px;
+}
+/******************* sunspace section end *******************/
+
+/*******************  second-contact-us start ****************** */
+.second-contact-us {
+    padding: 50px 0;
+}
+.second-contact-us .fom-main{
+    margin-top: 0px;
+    border: 1px solid #FFBD00;
+}
+.second-contact-us .second-contact-form{
+    background-color: #FFBD00;
+}
+.second-contact-us .second-contact-form form button.submit-button{
+    background-color: #000 !important;
+}
+/*******************  second-contact-us end ****************** */
+
+/*******************  review section start ****************** */
+.review-main{
+    background-image: url(../images/review-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px 0;
+    position: relative;
+}
+.review-main::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.review-main .review-inner{
+    border: 2px solid #FFBD00;
+    margin: 0 50px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+.review-main .review-inner .review-img img{
+    width: 100%;
+    max-width: 100px;
+    border-radius:50%;
+}
+.review-main .review-inner .review-content .review-img h5{
+    color: #fff;
+    margin-top: 10px;
+}
+.review-main .review-inner .review-content .review-star .fa-solid {
+    color: #FFBD00;
+}
+.review-main .review-inner .review-content .review-description{
+    width: 60%;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+.review-main .review-inner .review-content .review-description .fa-solid{
+    font-size: 30px;
+}
+/*******************  review section end ****************** */
+
+/*******************  second page css end ****************** */
