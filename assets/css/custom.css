@@ -18,6 +18,9 @@ img {
 .header nav.navbar .container {
     padding: 0 30px;
 }
+.header nav.navbar .navbar-toggler-icon .fa-solid{
+    color: #FFBD00;
+}
 .header nav.navbar .navbar-nav a.nav-item {
     color: #fff;
     border: 1px solid #FFBD00;
@@ -328,6 +331,9 @@ footer.footer {
     background-color: #FFBD00;
     padding: 50px 0;
 }
+.update-section .update-inner{
+    border: 1px solid red;
+}
 .update-section .update-inner .section-head h2{
     font-size: 40px;
 }
@@ -478,7 +484,7 @@ footer.footer {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 50px 0;
+    padding: 50px;
     position: relative;
 }
 .review-main::before{
@@ -490,9 +496,8 @@ footer.footer {
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.6);
 }
-.review-main .review-inner{
+.review-main .review-inner .review-content{
     border: 2px solid #FFBD00;
-    margin: 0 50px;
     border-radius: 10px;
     padding-bottom: 20px;
 }

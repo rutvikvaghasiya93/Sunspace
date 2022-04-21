@@ -25,7 +25,15 @@
         padding: 4px 15px;
     }
 }
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1199px) {
+    .image-with-text .image-wrapper .image1{
+        display: none;
+    }
+    .image-with-text .image-wrapper .image2 img{
+        max-width: 100%;
+    }
+}
+@media screen and (max-width:1024px){
     .image-with-text .image-wrapper .image1{
         display: none;
     }
